@@ -1,0 +1,8 @@
+setup.py
+faster_rcnn.egg-info/PKG-INFO
+faster_rcnn.egg-info/SOURCES.txt
+faster_rcnn.egg-info/dependency_links.txt
+faster_rcnn.egg-info/top_level.txt
+model/utils/bbox.c
+pycocotools/_mask.c
+pycocotools/maskApi.c

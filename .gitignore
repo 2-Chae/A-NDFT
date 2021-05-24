@@ -1,0 +1,13 @@
+models/
+data/
+output/
+summaries/
+examples/
+__pycache__
+
+*.sh
+*.c
+*.cpp
+*.so
+
+examples.py
