@@ -1,7 +1,7 @@
 # A-NDFT
 
 PyTorch Code for the paper:  
-Training Domain-invariant Object Detector Faster with Feature Replay and Slow Learner  
+"Training Domain-invariant Object Detector Faster with Feature Replay and Slow Learner"  
 Chaehyeon Lee, Junghoon Seo and Heechul Jung.
 
 Original code is [UAV-NDFT](https://github.com/VITA-Group/UAV-NDFT) from VITA-Group.  
