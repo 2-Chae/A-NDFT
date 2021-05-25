@@ -27,14 +27,14 @@ year = {2021}
 
 See [get_started.md](docs/get_started.md).
 
-
-## Multiple GPU Training
+## Training
+### Multiple GPU Training
 ```{r, engine='bash', count_lines}
 #!/bin/bash
 CUDA_VISIBLE_DEVICES=0,1,2,3 python trainval_net_monitor.py --cuda --mGPUs --gamma_weather 0.01  --gamma_angle 0.01 --gamma_altitude 0.01 --use_adversarial_loss --bs 32 --ema-beta 0.99 
 ```
 
-## Single GPU Training
+### Single GPU Training
 ```{r, engine='bash', count_lines}
 #!/bin/bash
 for ((i=0; i<=10; i++))
@@ -47,10 +47,13 @@ do
 done
 
 ```
-## UAVDT Data (Training+Testing) in Pascal Voc Format
+
+
+## Dataset
+### UAVDT Data (Training+Testing) in Pascal Voc Format
 Google Drive: https://drive.google.com/file/d/13xdLBfIWGYrjpT0Z3miAPKnKNDjNqLS9/view?usp=sharing
 
-## UAVDT Trained Model (w/o Adversarial Loss and w/ Adversarial Loss)
+### UAVDT Trained Model (w/o Adversarial Loss and w/ Adversarial Loss)
 Google Drive: https://drive.google.com/file/d/1rxqr0Cq0y9cXhdWyNd_R_8cd68exD1wn/view?usp=sharing
 
 We use models/baseline/faster_rcnn_1_4_3960.pth as pretrained model.
