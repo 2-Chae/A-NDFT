@@ -23,7 +23,7 @@ year = {2021}
 - Python 3.6 +
 - PyTorch 0.4.1
 - TorchVision 0.2.1
-- CUDA 9.1
+- CUDA 9.0 / 9.1
 
 See [get_started.md](docs/get_started.md).
 
