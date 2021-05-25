@@ -20,7 +20,7 @@ year = {2021}
 ## Installation
 ### Prerequisites
 - Linux or macOS (Windows is in experimental support)
-- Python 3.6 +
+- Python 3.6
 - PyTorch 0.4.1
 - TorchVision 0.2.1
 - CUDA 9.0 / 9.1
